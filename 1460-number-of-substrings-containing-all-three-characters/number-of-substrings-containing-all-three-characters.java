@@ -12,13 +12,9 @@ class Solution {
             if(ch == 'c') countC++;
 
             while(countA >0 && countB>0 && countC>0){
-                if(j < n-1){
-                    count += n-j;
-
-                }
-                else{
-                    count += 1;
-                }
+                
+                count += n-j;
+                 
                 char ch1 = s.charAt(i);
                 if(ch1 == 'a') countA--;
                 if(ch1 == 'b') countB--;
